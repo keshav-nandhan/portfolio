@@ -1,0 +1,197 @@
+html,body {
+  font-size: 14pt;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0px;
+    height: 100%;
+    overflow: hidden;
+    text-align: right;
+    font-family: "Raleway","Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #ffffff;
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+}
+
+section:nth-of-type(1) {
+  color: #fff;
+  height: calc(100vh + 53px);
+  padding: 0 10px;
+}
+
+section {
+  color: #616161;
+  padding: 70px 0 70px 0;
+  position: absolute;
+  padding: 100px 0 130px 0;
+}
+
+.cover {
+  object-fit: cover;
+  background: #2b2d34 url("../../assets/buddha.jpg") center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height:100% ;
+  border-radius: 0;
+  width: 100%;
+  color: #fff;
+  position: relative; /* Position the background text */
+  //background: rgb(0, 0, 0); /* Fallback color */
+  
+}
+.flex {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.logo {
+  width: 70px;
+  height: 40px;
+  margin-top: 5px;
+  margin-bottom: 12px;
+}
+
+.btn-narrow {
+  color: #0071E0;
+}
+
+ .btn {
+  padding: 1px;
+}
+ 
+  
+  a {
+    color: #59a0d7; }
+  
+  h1 {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 4rem;
+    font-weight: 600; }
+  
+  h2 {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 2.8rem;
+    font-weight: 500; }
+  
+  h3 {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: 500; }
+  
+  h4 {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase; }
+  
+  p {
+    color: #696b6e;
+    font-size: .9rem; }
+  
+  
+    
+    .cover h1 {
+      font-weight: 200; }
+    
+    .cover p.lead {
+      margin: 2rem auto;
+      color: rgba(255, 255, 255, 0.75); }
+    
+    .cover .cover-container {
+      display: -moz-popup;
+      margin-right: 1em auto; }
+      
+      .btn-primary, .btn-outline-primary, .btn-secondary, .btn-outline-secondary, .btn-white, .btn-outline-white, .btn-success, .btn-outline-success, .btn-info, .btn-outline-info, .btn-warning, .btn-outline-warning, .btn-danger, .btn-outline-danger {
+    font-size: .75rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: .3rem; }
+  
+  .btn-outline-primary, .btn-outline-secondary, .btn-outline-white, .btn-outline-success, .btn-outline-info, .btn-outline-warning, .btn-outline-danger {
+    border-width: 0.15rem; }
+  
+  .btn-lg {
+    padding: 1.1rem 2rem;
+    font-size: .9rem; }
+  
+  .btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    background-color: #59a0d7;
+    border-color: #59a0d7; }
+  
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    background-color: #4089c1;
+    border-color: #4089c1; }
+  
+  .btn-outline-primary, .btn-outline-primary:visited {
+    color: #59a0d7;
+    border-color: #59a0d7;
+    background: none; }
+  
+  .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active {
+    background-color: #59a0d7;
+    border-color: #59a0d7;
+    color: #fff; }
+  
+  .btn-secondary {
+    border-color: #696b6e;
+    background-color: #696b6e;
+    color: #fff; }
+  
+  .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+    border-color: #46484a;
+    background-color: #46484a;
+    color: #fff; }
+  
+  .btn-outline-secondary, .btn-outline-secondary:visited {
+    color: #696b6e;
+    border-color: #696b6e;
+    background: none; }
+  
+  .btn-outline-secondary:hover, .btn-outline-secondary:focus, .btn-outline-secondary:active {
+    border-color: #696b6e;
+    background: #696b6e;
+    color: #fff; }
+  
+  .btn-white {
+    border-color: #fff;
+    background-color: #fff;
+    color: #46484a; }
+  
+  .btn-white:hover, .btn-white:focus, .btn-white:active {
+    border-color: #dfe1e5;
+    background-color: #dfe1e5;
+    color: #46484a; }
+  
+  .btn-outline-white, .btn-outline-white:visited {
+    background: none;
+    color: #fff;
+    border-color: #fff; }
+  
+  .btn-outline-white:hover, .btn-outline-white:focus, .btn-outline-white:active {
+    color: #46484a;
+    background: #fff; 
+  }
+  
+  .link-white, link-white:visited {
+    font-size: .75rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: .3rem;
+    border: 0;
+    color: #fff; }
+  
+  .link-white:hover, .link-white:focus, .link-white:active {
+    color: #dfe1e5 !important; }
+  
+
+    li{
+      display:inline-block;
+      padding: 4px;
+    }
+
+
+
+body{font-family:Muli,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';padding-top:54px;color:#868e96}@media (min-width:992px){body{padding-top:0;padding-left:17rem}}h1,h2,h3,h4,h5,h6{font-family:'Saira Extra Condensed',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';font-weight:700;text-transform:uppercase;color:#343a40}h1{font-size:6rem;line-height:5.5rem}h2{font-size:3.5rem}h3{font-size:2rem}p.lead{font-size:1.15rem;font-weight:400}.subheading{text-transform:uppercase;font-weight:500;font-family:'Saira Extra Condensed',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';font-size:1.5rem}.social-icons a{display:inline-block;height:3.5rem;width:3.5rem;background-color:#495057;color:#fff!important;border-radius:100%;text-align:center;font-size:1.5rem;line-height:3.5rem;margin-right:1rem}.social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:#bd5d38}.dev-icons{font-size:3rem}.dev-icons .list-inline-item i:hover{color:#bd5d38}#sideNav .navbar-nav .nav-item .nav-link{font-weight:800;letter-spacing:.05rem;text-transform:uppercase}#sideNav .navbar-toggler:focus{outline-color:rgb(255, 253, 253)}@media (min-width:992px){#sideNav{text-align:center;position:fixed;top:0;left:0;display:flex;flex-direction:column;width:17rem;height:100vh}#sideNav .navbar-brand{display:flex;margin:auto auto 0;padding:.5rem}#sideNav .navbar-brand .img-profile{max-width:10rem;max-height:10rem;border:.5rem solid rgba(255,255,255,.2)}#sideNav .navbar-collapse{display:flex;align-items:flex-start;flex-grow:0;width:100%;margin-bottom:auto}#sideNav .navbar-collapse .navbar-nav{flex-direction:column;width:100%}#sideNav .navbar-collapse .navbar-nav .nav-item{display:block}#sideNav .navbar-collapse .navbar-nav .nav-item .nav-link{display:block}}section.resume-section{padding-top:5rem!important;padding-bottom:5rem!important;max-width:75rem}section.resume-section .resume-item .resume-date{min-width:none}@media (min-width:768px){section.resume-section{min-height:100vh}section.resume-section .resume-item .resume-date{min-width:18rem}}@media (min-width:992px){section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important}}.bg-primary{background-color:#000000 !important}.text-primary{color:#bd5d38!important}a{color:#ffffff}a:active,a:focus,a:hover{color:#ffffff}
