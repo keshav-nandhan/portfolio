@@ -11,6 +11,6 @@
   "dependencies": {
     "@angular/cli": "^9.0.1",
     "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   }
 }
